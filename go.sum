@@ -1,0 +1,4 @@
+github.com/graph-gophers/graphql-go v0.0.0-20200207002730-8334863f2c8b h1:fRjb9ncV+Aad/w56TstaCM/xGusFsfDfeGhhc+k4IBg=
+github.com/graph-gophers/graphql-go v0.0.0-20200207002730-8334863f2c8b/go.mod h1:9CQHMSxwO4MprSdzoIEobiHpoLtHm77vfxsvsIN5Vuc=
+github.com/opentracing/opentracing-go v1.1.0 h1:pWlfV3Bxv7k65HYwkikxat0+s3pV4bsqf19k25Ur8rU=
+github.com/opentracing/opentracing-go v1.1.0/go.mod h1:UkNAQd3GIcIGf0SeVgPpRdFStlNbqXla1AfSYxPUl2o=
