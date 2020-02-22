@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/graph-gophers/graphql-go"
+	graphql "github.com/graph-gophers/graphql-go"
 )
 
 const schemaString = `
