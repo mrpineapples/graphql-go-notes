@@ -102,7 +102,6 @@ func main() {
 		// parameter. This is common practice for getting
 		// started.
 		queryParam := url.QueryEscape(`{ greet }`)
-		fmt.Println("queryParam", queryParam)
 		resp, err := http.Get("http://localhost:8000/graphql?query=" + queryParam)
 		if err != nil {
 			panic(err)
