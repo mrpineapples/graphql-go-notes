@@ -1,0 +1,12 @@
+version: '3'
+services:
+  database:
+    container_name: go-graphql-postgres
+    image: postgres:9.4
+    restart: always
+    ports:
+      - 5432:5432
+    environment:
+        POSTGRES_PASSWORD: example
+    volumes:
+      - ./schema.sql:/docker-entrypoint-initdb.d/schema.sql
